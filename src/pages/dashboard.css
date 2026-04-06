@@ -1,0 +1,12 @@
+.dashboard {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.dashboard-middle {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 16px;
+}

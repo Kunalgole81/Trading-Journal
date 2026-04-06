@@ -1,0 +1,49 @@
+.tiles {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.tile {
+    padding: 16px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Header with icon */
+.tile-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.tile-header i {
+    font-size: 18px;
+    color: #4f46e5;
+    background: #eef2ff;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.tile-title {
+    font-size: 22px;
+    color: #6b7280;
+}
+
+/* Value */
+.tile-value {
+    font-size: 22px;
+    font-weight: 600;
+    color: #111827;
+}
+
+/* Conditional coloring */
+.tile-value.profit {
+    color: #16a34a;
+}
+
+.tile-value.loss {
+    color: #dc2626;
+}

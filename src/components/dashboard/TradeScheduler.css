@@ -1,0 +1,11 @@
+.dx-scheduler-appointment {
+    background-color: aqua !important;
+    color: black !important;
+    border-left: 3px solid transparent;
+    border-right: 2px solid transparent;
+}
+
+.dx-scheduler-header .dx-toolbar .dx-toolbar-items-container {
+    background-color: white;
+    height: 100%;
+}

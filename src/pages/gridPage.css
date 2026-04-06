@@ -1,0 +1,10 @@
+.gridpage .dx-datagrid-header-panel {
+    background: white;
+    padding-top: 10px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+}
+
+.gridpage .dx-datagrid-column-chooser .dx-treeview-expander-icon-stub {
+    width: 0px;
+}
